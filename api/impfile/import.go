@@ -78,15 +78,9 @@ func Filess(c *gin.Context){
 	if c.PostForm("start_time") != "" {
 
 		page.Add("at",">","and",c.PostForm("start_time"))
-	}else{
-		c.JSON(http.StatusOK,gin.H{"err": 1 ,"msg":"请选择导出时间和导出结束时间"})
-		return
 	}
 	if c.PostForm("end_time") != ""{
 		page.Add("at","<","and",c.PostForm("end_time"))
-	}else{
-		c.JSON(http.StatusOK,gin.H{"err": 1 ,"msg":"请选择导出时间和导出结束时间"})
-		return
 	}
 	if c.PostForm("proway") != ""{
 		page.Add("pro_way","=","and",c.PostForm("proway"))
