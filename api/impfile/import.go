@@ -111,6 +111,6 @@ func Filess(c *gin.Context){
 		c.Header("Content-Type", "application/octet-stream")
 		c.Header("Content-Transfer-Encoding", "binary")
 		c.File(path)
-		//os.Remove(path)
+		os.Remove(path)
 	}
 }

@@ -196,7 +196,7 @@ func url_rout( rout_name string )  {
 *******************/
 func impfile_rout( rout_name string )  {
 	rout :=routs.Group(rout_name)
-	//rout.Use(middleware.JWTAuth())
+	rout.Use(middleware.JWTAuth())
 	rout.POST("import",impfile.ImportFile)				//推广数据文件导入
 	rout.POST("analysisfile",impfile.AnalysisFile)		//推广数据文件解析
 	rout.POST("export_chant",impfile.Filess)				//首咨导出
