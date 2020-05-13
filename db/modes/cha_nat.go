@@ -155,7 +155,7 @@ func ( this *ChaNat )ToExcelFile( val *Pager  )(string, error){
 		xlsx.SetCellValue("Sheet1", to_line( "K", 1  ),"项目名称")
 		xlsx.SetCellValue("Sheet1", to_line( "L", 1  ),"投递地址")
 		for i, v := range list {
-			xlsx.SetCellValue("Sheet1", to_line( "A", i + 2 ), v.GPassPhone() )
+			xlsx.SetCellValue("Sheet1", to_line( "A", i + 2 ), v.Phone )
 			//xlsx.SetCellValue("Sheet1", to_line( "A", i + 2 ), v.Phone )
 			xlsx.SetCellValue("Sheet1", to_line( "B", i + 2 ), ToString( v.ProWay ) )
 			xlsx.SetCellValue("Sheet1", to_line( "C", i + 2 ), ToString( v.ChannelId ))
