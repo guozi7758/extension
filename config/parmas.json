@@ -1,0 +1,31 @@
+ {
+  "header": {
+    "username": "伟伟道11",
+    "password": "Kk1K4U",
+    "token": "dd170692a939181ae1adb27ecd3b4964"
+  },
+  "body": {
+    "realTimeRequestType": {
+      "unitOfTime": 5,
+      "startDate": "2019-11-24",
+      "reportType": 2,
+      "performanceData": [
+        "impression",
+        "click",
+        "cost",
+        "ctr",
+        "cpc",
+        "cpm"
+      ],
+      "endDate": "2019-11-25",
+      "levelOfDetails": 2
+    },
+    "pid" : 1001001
+  }
+}
+
+
+
+
+
+

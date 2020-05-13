@@ -1,0 +1,9 @@
+{
+    "server"    : "https://api.e.360.cn/uc/account/clientLogin",
+    "report"    : "https://api.e.360.cn/dianjing/report/accountDaily",
+    "apikey"    : "a8bbbfec303190ccdc8815821f7d1560",
+    "username"  : "ruidunrao19840519@163.com",
+    "passwd"    : "79579c82c6966dd3a457ff6897c4e05f8ec542a5364a132d5e564fb01921450d",
+    "pid"       : 1001001
+}
+

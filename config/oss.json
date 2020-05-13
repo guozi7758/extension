@@ -1,0 +1,8 @@
+{
+	"endpoint"	: "oss-cn-qingdao.aliyuncs.com",
+	"keyid" 	: "LTAIhPwdMvfLDvpn",
+	"keysecret" 	: "9C3PipMmCkEgFoYqlUcgh70QtEzFZK",
+    	"bucket"    	: "bf-dev"
+}
+
+

@@ -1,0 +1,9 @@
+{
+    "getReport"    : "https://e.sm.cn/api/report/getReport",
+    "getTaskState"    : "https://e.sm.cn/api/task/getTaskState",
+    "download"    : "https://e.sm.cn/api/file/download",
+    "username"  : "清可-神马教育655",
+    "password"    : "ljIGO89(*lk",
+    "token"    : "2451f99c-1d13-45e7-99d0-745927ab1187",
+    "pid"       : 1001001
+}
